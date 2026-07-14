@@ -44,3 +44,27 @@ The project demonstrates the implementation of the **MVC/MVT architecture** in D
 * Demonstrates real-world web application development using Django
 
 Overall, this project showcases how Django can be used to build a secure, scalable, and user-friendly healthcare management system that streamlines the appointment booking process and improves communication between patients, doctors, and administrators.
+
+
+
+
+
+How to run the Doctor Appointment System Django Python
+1. Download the zip file
+2. Extract the file, copy doctorappointment folder, and paste it on the desktop
+
+3. Open MySQL Create a database docaspythondb then import the SQL File available in the MySQL File Folder (For MySQL we used XAMPP server)
+
+4. Open PyCharm and click on the terminal
+
+5. Navigate the project folder using the cd command
+cd project_path
+For ex: cd C:\Users\RAJAT\OneDrive\Desktop\doctorappointment
+
+6. Now Navigate to the Company Visitor Management System folder
+cd docappsystem
+
+
+7. Run the Project using the following command
+python manage.py runserver
+
